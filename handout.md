@@ -238,7 +238,8 @@ $ more id_rsa_2048_*.pub
 Githubの設定ページ(トップ右上の自分のアイコンメニューからSettingのリンク)
 へ飛びSSH keysを設定します。(間違っても秘密鍵を設定しないように！)
 コメント類は削除し、ssh-rsa という文字列を文頭に付けてキーのみを貼り付けましょう。
-参考画像(https://github.com/ababup1192/SCCP2015_Second/blob/master/ssh_key_setting.png)
+
+![公開キーの登録](./ssh_key_setting.png)
 
 最後に、リモートリポジトリのURLを指定し、先ほど作ったリポジトリをGithubにpushします。
 
