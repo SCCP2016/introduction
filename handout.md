@@ -231,7 +231,13 @@ $ ssh-keygen -t rsa
 $ cd $HOME/.ssh2
 # 秘密鍵のパーミッションは閉じられている。
 $ ls -a
-$ more id_rsa_2048_*.pub
+$ cat id_rsa_2048_*.pub
+
+---- BEGIN SSH2 PUBLIC KEY ----
+Subject: [学籍番号]
+Comment: 鍵情報
+[ここが鍵の中身になります。コピーしましょう。]
+---- END SSH2 PUBLIC KEY ----
 ```
 
 Githubの設定ページ(トップ右上の自分のアイコンメニューからSettingのリンク)
