@@ -38,7 +38,8 @@ Unix系のOSはハードウェアを操作するのにカーネルと呼ばれ�
 $ chsh
 Old Shell: /usr/bin/csh
 New Shell [ /bin/sh /bin/csh /usr/local/bin/tcsh /usr/local/gnu/bin/bash ]:
-$ /usr/local/gnu/bin/bash
+# bashの絶対パスを打ち込む。
+/usr/local/gnu/bin/bash
 ```
 
 絶対パスを打ち込んだあとに、ログインパスワードが聞かれるので入力をすると、次回以降**bash**でログインすることができます。一度ログアウトし、ログインし直しましょう。 **bash** の機能を確認するために、**cd /home/stu** まで打ち込んだらTabキーを押しましょう。**student** の文字が補完されるはずです。
